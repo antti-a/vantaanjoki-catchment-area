@@ -1,0 +1,14 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Input rasters (flow accumulation is ~470 MB, over GitHub's 100 MB limit)
+04_accumulation/
+
+# Generated catchment outputs (--raster) and GDAL sidecars
+catchment_x*_y*.tiff
+*.aux.xml
+
+# Stray conda search output
+1.5.0
